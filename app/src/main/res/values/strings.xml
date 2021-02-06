@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Que Faire A Paris V2</string>
+
+    <string name="main_text">Que faire à Paris ?</string>
+
+    <string name="accueil">Accueil</string>
+    <string name="recherche">Recherche</string>
+    <string name="favoris">Favoris</string>
+    <string name="a_propos">A propos</string>
+
+    // Search view
+    <string name="localisation">Localisation</string>
+    <string name="date">Date</string>
+    <string name="gratuit">Gratuit</string>
+    <string name="payant">Payant</string>
+
+    <string name="animations">Animations</string>
+    <string name="atelier">Atelier/Cours</string>
+    <string name="conference">Conférence/Débat</string>
+    <string name="stage">Stage</string>
+    <string name="lecture">Lecture/Rencontre</string>
+    <string name="loisirs">Loisirs/Jeux</string>
+    <string name="balade">Balade</string>
+    <string name="visite">Visite guidée</string>
+    <string name="autres_animations">Autres</string>
+
+    <string name="concerts">Concerts</string>
+    <string name="classique">Classique</string>
+    <string name="jazz">Jazz</string>
+    <string name="monde">Monde</string>
+    <string name="rock">Rock</string>
+    <string name="electronique">Electronique</string>
+    <string name="pop">Pop/Variété</string>
+    <string name="chanson">Chanson Française</string>
+    <string name="hip_hop">Hip-Hop</string>
+    <string name="folk">Folk</string>
+    <string name="autres_concerts">Autres</string>
+
+    <string name="evenements">Evénements</string>
+    <string name="festival">Festival</string>
+    <string name="salon">Salon</string>
+    <string name="sport">Sport</string>
+    <string name="fete">Fête</string>
+    <string name="marche">Marché</string>
+    <string name="soiree">Soirée</string>
+    <string name="autres_evenements">Autres</string>
+
+    <string name="expositions">Expositions</string>
+    <string name="art_contemporain">Art contemporain</string>
+    <string name="photographie">Photographie</string>
+    <string name="beaux_arts">Beaux-Arts</string>
+    <string name="histoire">Histoire/Civilisation</string>
+    <string name="illustration">Illustration/BD</string>
+    <string name="design">Design/Mode</string>
+    <string name="street_art">Street-art</string>
+    <string name="autres_expositions">Autres</string>
+
+    <string name="spectacles">Spectacles</string>
+    <string name="theatre">Théâtre</string>
+    <string name="dance">Dance</string>
+    <string name="jeune">Jeune public</string>
+    <string name="cirque">Cirque/Art de la Rue</string>
+    <string name="humour">Humour</string>
+    <string name="opera">Opéra/Musical</string>
+    <string name="projection">Projection</string>
+    <string name="autres_spectacles">Autres</string>
+</resources>
