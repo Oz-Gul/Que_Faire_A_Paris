@@ -1,11 +1,14 @@
 package com.bousaid.quefaireaparisv2;
 
+import android.media.Image;
 import android.os.Bundle;
+import android.text.style.ImageSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -18,15 +21,20 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.bumptech.glide.Glide;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class HomeFragment extends Fragment {
     private TextView mTextViewResult;
+    private ImageView imageView;
     private RequestQueue mQueue;
 
     @Nullable
@@ -35,7 +43,7 @@ public class HomeFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
 
         mTextViewResult = rootView.findViewById(R.id.element_home);
-        mQueue = Volley.newRequestQueue(this.getContext());
+        mQueue = Volley.newRequestQueue(getContext());
 
         jsonParse();
 
@@ -43,21 +51,24 @@ public class HomeFragment extends Fragment {
     }
 
     private void jsonParse() {
-        String url = "https://tools.learningcontainer.com/sample-json.json";
+        String url = "https://opendata.paris.fr/api/records/1.0/search/?dataset=que-faire-a-paris-&q=&rows=1&facet=category&facet=tags&facet=address_name&facet=address_zipcode&facet=address_city&facet=pmr&facet=blind&facet=deaf&facet=access_type&facet=price_type&timezone=Europe%2FBerlin";
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 response -> {
                     try {
-                        JSONObject jsonObject = response.getJSONObject("address");
-                        for (int i = 0; i<1; i++){
-                            String streetAddress = jsonObject.getString("streetAddress");
-                            String city = jsonObject.getString("city");
-                            String state = jsonObject.getString("state");
-                            String postalCode = jsonObject.getString("postalCode");
+                        JSONArray records = response.getJSONArray("records");
+                        for (int i = 0; i < records.length(); i++) {
+                            JSONObject record = records.getJSONObject(i);
+                            JSONObject fields = record.getJSONObject("fields");
+                            String title = fields.getString("title");
+                            String address_street = fields.getString("address_street");
+                            String lead_text = fields.getString("lead_text");
+                            String image_url = fields.getString("cover_url");
+                            imageView = this.getView().findViewById(R.id.image_home);
 
-                            mTextViewResult.append(streetAddress +", "+ city+", "+state+", "+postalCode+"\n");
+                            Glide.with(getActivity()).load(image_url).into(imageView);
+                            mTextViewResult.append(title + "\n" + address_street +"\n" + lead_text);
                         }
                     } catch (JSONException e) {
-                        Log.d("MESSAGE", "TEST");
                         e.printStackTrace();
                     }
                 },
