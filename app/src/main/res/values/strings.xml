@@ -2,6 +2,7 @@
     <string name="app_name">Que Faire A Paris V2</string>
 
     <string name="main_text">Que faire à Paris ?</string>
+    <string name="home">Notre sélection du jour</string>
 
     <string name="accueil">Accueil</string>
     <string name="recherche">Recherche</string>
