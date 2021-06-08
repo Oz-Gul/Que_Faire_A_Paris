@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Que Faire A Paris V2"
+rootProject.name = "Que Faire A Paris"

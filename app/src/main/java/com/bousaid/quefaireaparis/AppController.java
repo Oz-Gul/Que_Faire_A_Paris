@@ -1,4 +1,4 @@
-package com.bousaid.quefaireaparisv2;
+package com.bousaid.quefaireaparis;
 
 import android.app.Application;
 import android.text.TextUtils;

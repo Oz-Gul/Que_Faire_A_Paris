@@ -1,4 +1,4 @@
-package com.bousaid.quefaireaparisv2;
+package com.bousaid.quefaireaparis;
 
 import android.graphics.Bitmap;
 import android.util.LruCache;
@@ -9,9 +9,7 @@ public class ImageBitmap extends LruCache<String, Bitmap> implements
         ImageLoader.ImageCache {
     public static int getDefaultLruCacheSize() {
         final int maxMemory = (int) (Runtime.getRuntime().maxMemory() / 1024);
-        final int cacheSize = maxMemory / 8;
-
-        return cacheSize;
+        return maxMemory / 8;
     }
 
     public ImageBitmap() {

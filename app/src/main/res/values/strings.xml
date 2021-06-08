@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Que Faire A Paris V2</string>
+    <string name="app_name">Que Faire A Paris</string>
 
     <string name="main_text">Que faire à Paris ?</string>
     <string name="home">Notre sélection du jour</string>
@@ -66,4 +66,18 @@
     <string name="opera">Opéra/Musical</string>
     <string name="projection">Projection</string>
     <string name="autres_spectacles">Autres</string>
+
+    <string name="description_image">Image d\'illustration</string>
+    <string name="description_activite">Description de l\'activité</string>
+    <string name="parametres">Paramètres</string>
+    <string name="prix">Prix</string>
+    <string name="rechercher">Rechercher</string>
+    <string name="filtrer">Filtrer</string>
+    <string name="like">Bouton like</string>
+    <string name="liste">Liste</string>
+    <string name="carte">Carte</string>
+    <string name="activitesDuMoment">Activités du moment</string>
+    <string name="parisData">Paris Data</string>
+    <string name="vos_favoris">Vos favoris</string>
+    <string name="fermer">X</string>
 </resources>

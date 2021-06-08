@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/button_close"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        app:icon="@android:drawable/ic_menu_close_clear_cancel"></Button>
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/image_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/text_popup"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:textSize="14sp" />
+</LinearLayout>
