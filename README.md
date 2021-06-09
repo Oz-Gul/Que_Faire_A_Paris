@@ -52,11 +52,11 @@ Il y ensuite plusieurs classes permettant entre autres de gérer les événement
 
 Voici maintenant l’interface de notre application :
 
-➢ La page d’accueil : elle contient les activités du moment, qui changent tous les jours.
+➢ **La page d’accueil :** elle contient les activités du moment, qui changent tous les jours.
 
 ![Capture d’écran 2021-03-16 134648](https://user-images.githubusercontent.com/77643801/121334820-4e01b700-c91a-11eb-988d-8eef8a99f40f.png)
 
-➢ La page de recherche :
+➢ **La page de recherche :**
 
   ➔ Ici nous effectuons une recherche avec un tag, dont les résultats sont affichés sous forme de liste.
   
@@ -82,11 +82,11 @@ Voici maintenant l’interface de notre application :
   
   ![Capture d’écran 2021-03-16 135439](https://user-images.githubusercontent.com/77643801/121334970-75f11a80-c91a-11eb-8005-20cc9a7c00b1.png)
   
- ➢ La page des favoris :
+ ➢ **La page des favoris :**
  
  ![Capture d’écran 2021-03-16 142126](https://user-images.githubusercontent.com/77643801/121335093-94571600-c91a-11eb-8fa9-dc5c73397f7a.png)
 
- ➢ La page à propos :
+ ➢ **La page à propos :**
  
  ![Capture d’écran 2021-03-16 135458](https://user-images.githubusercontent.com/77643801/121335147-a042d800-c91a-11eb-82e9-baac384345da.png)
 
