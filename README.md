@@ -1,8 +1,8 @@
 # Que Faire A Paris ? 
 
-
-![Project Name](https://user-images.githubusercontent.com/77643801/121499043-4c4cf780-c9dd-11eb-9bda-28c801ca3de9.gif)
-![VideoEditor_20210305_032210_Trim3](https://user-images.githubusercontent.com/77643801/121487897-d6dc2980-c9d2-11eb-9d02-1d3f1c760f71.gif)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77643801/121594368-48e95880-ca3d-11eb-9d4b-f3e4b2735e69.gif?raw=true"/>
+</p>
 
 
 La mairie de Paris met à disposition une base «Que Faire à Paris ?» en accès libre Open Data. 
