@@ -1,9 +1,7 @@
 # Que Faire A Paris ? 
 
 
-![VideoEditor_20210305_032210_Trim4](https://user-images.githubusercontent.com/77643801/121487778-b9a75b00-c9d2-11eb-8d70-5fe229c9bddc.gif)
-![VideoEditor_20210305_032210_Trim5](https://user-images.githubusercontent.com/77643801/121487672-9a103280-c9d2-11eb-9231-d487db5a8c4b.gif)
-![VideoEditor_20210305_032210_Trim2](https://user-images.githubusercontent.com/77643801/121487866-ce83ee80-c9d2-11eb-8bcc-4e05b4ad9810.gif)
+![Project Name](https://user-images.githubusercontent.com/77643801/121499043-4c4cf780-c9dd-11eb-9bda-28c801ca3de9.gif)
 ![VideoEditor_20210305_032210_Trim3](https://user-images.githubusercontent.com/77643801/121487897-d6dc2980-c9d2-11eb-9d02-1d3f1c760f71.gif)
 
 
